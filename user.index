@@ -5,10 +5,11 @@
 		<description>The content I have defined myslef.</description>
 		<author url="#">Me</author>
 		<update version="0.2.5">
-			<file name="user.index" url="#" />
+			<file name="user.index" url="https://raw.githubusercontent.com/qtgiebel/aurora_content/main/user.index" />
 		</update>
 	</info>
 	<files>
-		<file name="user.index" url="#" />
+		<file name="spells.index" url="https://raw.githubusercontent.com/qtgiebel/aurora_content/main/user/spells.index" />
+		<file name="artificer_infusions.index" url= "https://raw.githubusercontent.com/qtgiebel/aurora_content/main/user/artificer_infusions.index" />
 	</files>
 </index>
