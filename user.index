@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<index>
+	<info>
+		<name>User</name>
+		<description>The content I have defined myslef.</description>
+		<author url="#">Me</author>
+		<update version="0.2.5">
+			<file name="user.index" url="#" />
+		</update>
+	</info>
+	<files>
+		<file name="user.index" url="#" />
+	</files>
+</index>
