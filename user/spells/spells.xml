@@ -3,7 +3,7 @@
 	<info>
         <name>Spells</name>
 		<update version="0.0.1">
-            <file name="userDefined.xml" url="https://raw.githubusercontent.com/aurorabuilder/elements/master/core/monster-manual/sp.xml" />
+            <file name="userDefined.xml" url="https://raw.githubusercontent.com/qtgiebel/aurora_content/main/user/spells/spells.xml" />
         </update>
 	</info>
 	
@@ -32,5 +32,3 @@
 		</setters>
 	</element>	
 </elements>
-
-		<file name="languages.xml" url="" />
