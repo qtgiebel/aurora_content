@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<index>
+	<info>
+		<name>User-qtgiebel</name>
+		<description>The content I have defined myslef.</description>
+		<author url="#">Me</author>
+		<update version="0.1">
+			<file name="user-qtgiebel.index" url="https://raw.githubusercontent.com/qtgiebel/aurora_content/main/user-qtgiebel.index" />
+		</update>
+	</info>
+	<files>
+		<file name="spells.index" url="https://raw.githubusercontent.com/qtgiebel/aurora_content/main/user-qtgiebel/spells.index" />
+		<file name="artificer_infusions.index" url= "https://raw.githubusercontent.com/qtgiebel/aurora_content/main/user-qtgiebel/artificer_infusions.index" />
+	</files>
+</index>
