@@ -5,12 +5,10 @@
 		<description>Spells I have made myself.</description>
 		<author url="#">Me</author>
 		<update version="0.0.1">
-			<file name="spells.index" url="https://raw.githubusercontent.com/qtgiebel/" />
+			<file name="spells.index" url="https://raw.githubusercontent.com/qtgiebel/aurora_content/main/user/spells.index" />
 		</update>
 	</info>
 	<files>
-		<file name="source.xml" url="https://raw.githubusercontent.com/aurorabuilder/elements/master/core/monster-manual/source.xml" />
-		<file name="companions.xml" url="https://raw.githubusercontent.com/aurorabuilder/elements/master/core/monster-manual/companions.xml" />
-		<file name="languages.xml" url="https://raw.githubusercontent.com/aurorabuilder/elements/master/core/monster-manual/languages.xml" />
+		<file name="spells.xml" url="https://raw.githubusercontent.com/qtgiebel/aurora_content/main/user/spells/spells.xml" />
 	</files>
 </index>
