@@ -2,12 +2,12 @@
 <elements>
 	<info>
         <name>Artificer Infusions</name>
-		<update version="0.0.1">
+		<update version="0.0.2">
             <file name="infusions.xml" url="https://raw.githubusercontent.com/qtgiebel/aurora_content/main/user-qtgiebel/artificer/infusions.xml" />
         </update>
 	</info>
-	
-    <element name="Homunculus Servant" type="Class Feature" source="Tasha’s Cauldron of Everything" id="ID_WOTC_TCOE_CLASS_FEATURE_ARTIFICER_INFUSION_HOMUNCULUS_SERVANT">
+
+    <element name="Homunculus Servant" type="Class Feature" source="User Defined" id="ID_USERDEFINED_ARTIFICER_CLASS_FEATURE_ARTIFICER_INFUSION_HOMUNCULUS_SERVANT">
         <supports>Artificer Infusion</supports>
         <description>
             <p><em>Item: A gem or crystal worth at least 100 gp</em></p>
@@ -27,7 +27,7 @@
         </rules>
     </element>
 
-    <element name="Homunculus Servant" type="Companion" source="Tasha’s Cauldron of Everything" id="ID_WOTC_TCOE_COMPANION_ARTIFICER_HOMUNCULUS_SERVANT">
+    <element name="Homunculus Servant" type="Companion" source="User Defined" id="ID_USERDEFINED_ARTIFICER_CLASS_FEATURE_ARTIFICER_INFUSION_HOMUNCULUS_SERVANT">
 		<supports>Homunculus Servant</supports>
 		<description>
 			<p>Your tinkering has borne you a faithful companion, a homunculus servant. It is friendly to you and your companions, and it obeys your commands.</p>
@@ -51,9 +51,9 @@
 			<set name="type">Construct</set>
 			<set name="size">Tiny</set>
 			<set name="challenge">-</set>
-			<set name="traits">ID_WOTC_TCOE_COMPANION_TRAIT_HOMUNCULUS_SERVANT_EVASION</set> 
-			<set name="actions">ID_WOTC_TCOE_COMPANION_TRAIT_HOMUNCULUS_SERVANT_FORCE_STRIKE</set> 
-			<set name="reactions">ID_WOTC_TCOE_COMPANION_TRAIT_HOMUNCULUS_SERVANT_CHANNEL_MAGIC</set> 
+			<set name="traits">ID_USERDEFINED_COMPANION_TRAIT_HOMUNCULUS_SERVANT_EVASION</set> 
+			<set name="actions">ID_USERDEFINED_COMPANION_TRAIT_HOMUNCULUS_SERVANT_FORCE_STRIKE</set> 
+			<set name="reactions">ID_USERDEFINED_COMPANION_TRAIT_HOMUNCULUS_SERVANT_CHANNEL_MAGIC</set> 
 		</setters>
 		<rules>
 			<stat name="companion:ac" value="13" bonus="base" />
@@ -65,11 +65,11 @@
 			<stat name="companion:perception:proficiency" value="companion:proficiency" bonus="double" />
 			<stat name="companion:stealth:proficiency" value="companion:proficiency" bonus="proficiency" />
 			<stat name="companion:dexterity:save:proficiency" value="companion:proficiency" bonus="proficiency" />
-			<grant type="Companion Trait" id="ID_WOTC_TCOE_COMPANION_TRAIT_HOMUNCULUS_SERVANT_EVASION" />
+			<grant type="Companion Trait" id="ID_USERDEFINED_COMPANION_TRAIT_HOMUNCULUS_SERVANT_EVASION" />
 		</rules>
 	</element>
 
-	<element name="Evasion" type="Companion Trait" source="Tasha’s Cauldron of Everything" id="ID_WOTC_TCOE_COMPANION_TRAIT_HOMUNCULUS_SERVANT_EVASION">
+	<element name="Evasion" type="Companion Trait" source="User Defined" id="ID_USERDEFINED_COMPANION_TRAIT_HOMUNCULUS_SERVANT_EVASION">
 		<description>
 			<p>If the homunculus is subjected to an effect that allows it to make a Dexterity saving throw to take only half damage, it instead takes no damage if it succeeds on the saving throw, and only half damage if it fails. It can't use this trait if it's incapacitated.</p>
 		</description>
@@ -78,7 +78,7 @@
 		</sheet>
 	</element>
 
-	<element name="Force Strike" type="Companion Action" source="Tasha’s Cauldron of Everything" id="ID_WOTC_TCOE_COMPANION_TRAIT_HOMUNCULUS_SERVANT_FORCE_STRIKE">
+	<element name="Force Strike" type="Companion Action" source="User Defined" id="ID_USERDEFINED_COMPANION_TRAIT_HOMUNCULUS_SERVANT_FORCE_STRIKE">
 		<description>
 			<p>Ranged Weapon Attack: your spell attack modifier to hit, range 30 ft., one target you can see. Hit: 1d4 + PB force damage.</p>
 		</description>
@@ -87,7 +87,7 @@
 		</sheet>
 	</element>
 
-	<element name="Channel Magic" type="Companion Reaction" source="Tasha’s Cauldron of Everything" id="ID_WOTC_TCOE_COMPANION_TRAIT_HOMUNCULUS_SERVANT_CHANNEL_MAGIC">
+	<element name="Channel Magic" type="Companion Reaction" source="User Defined" id="ID_USERDEFINED_COMPANION_TRAIT_HOMUNCULUS_SERVANT_CHANNEL_MAGIC">
 		<description>
 			<p>The homunculus delivers a spell you cast that has a range of touch. The homunculus must be within 120 feet of you.</p>
 		</description>
