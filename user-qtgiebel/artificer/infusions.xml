@@ -2,7 +2,7 @@
 <elements>
 	<info>
         <name>Artificer Infusions</name>
-		<update version="0.0.2">
+		<update version="0.1.1">
             <file name="infusions.xml" url="https://raw.githubusercontent.com/qtgiebel/aurora_content/main/user-qtgiebel/artificer/infusions.xml" />
         </update>
 	</info>
