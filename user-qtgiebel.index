@@ -10,6 +10,6 @@
 	</info>
 	<files>
 		<file name="spells.index" url="https://raw.githubusercontent.com/qtgiebel/aurora_content/main/user-qtgiebel/spells.index" />
-		<file name="artificer_infusions.index" url= "https://raw.githubusercontent.com/qtgiebel/aurora_content/main/user-qtgiebel/artificer_infusions.index" />
+		<file name="artificer.index" url= "https://raw.githubusercontent.com/qtgiebel/aurora_content/main/user-qtgiebel/artificer.index" />
 	</files>
 </index>
