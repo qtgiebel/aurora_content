@@ -8,6 +8,7 @@
 	</info>
 	
 	<element name="Jimbob’s Magic Missile" type="Spell" source="User Defined" id="ID_USERDEFINED_SPELL_JIMBOBS_MAGIC_MISSILE">
+		<supports>Artificer</supports>
 		<supports>Wizard</supports>
 		<description>
 			<p>Any apprentice wizard can cast a boring old magic missile. Sure, it always strikes its target. Yawn. Do away with the drudgery of your grandfather’s magic with this improved version of the spell, as used by Jim Darkmagic!</p>
